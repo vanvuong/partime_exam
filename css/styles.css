@@ -1,0 +1,74 @@
+body {
+	background-color: #f4f4f4 !important;
+}
+
+.navbar-custom {
+	position:relative;
+    background-color:#ffffff;
+    height:100px !important;
+	width:100% !important;
+	background-image: url('../images/header-background@2x.png');
+	background-repeat: no-repeat;
+	background-size: auto 90%;
+	background-position: top right;
+}
+
+.navbar-custom:after {
+    content:'';
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 0;
+    height: 0;
+    border-top: solid 36px #ffffff;
+    border-left: solid 50vw transparent;
+	border-right: solid 50vw transparent;
+	-webkit-filter: drop-shadow(0 5px 5px rgba(236, 236, 236, 1));
+	filter: drop-shadow(0 5px 5px rgba(236, 236, 236, 1));
+}
+
+.navbar-header {
+	margin-top: 38px;
+	padding: 16px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+
+.navbar-header ul.navbar-nav > li > a {
+	padding: 8px 12px;
+}
+
+.navbar-header button.navbar-toggle {
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.navbar-header .navbar-icons {
+	margin-left: auto;
+}
+
+.navbar-header .navbar-icons .icon-img {
+	margin-left: 12px;
+}
+
+img.icon-img {
+	width: auto;
+	height: 22px;
+}
+
+.mr-1 {
+	margin-right: 10px;
+}
+
+.mr-2 {
+	margin-right: 20px;
+}
+
+.container-wrapper {
+	margin-top: 136px;
+	padding: 20px;
+}
